@@ -12,6 +12,9 @@ BACKUP_DIR = STORAGE / "backups"
 LOG_DIR = ROOT / "logs"
 DB_PATH = STORAGE / "jobhunter.db"
 PROFILE_PATH = ROOT / "profile.json"
+# Same profile with phone, email and links removed. Used when profile.json is missing,
+# for example on Streamlit Cloud, where the real profile is never uploaded.
+EXAMPLE_PROFILE_PATH = ROOT / "profile.example.json"
 
 
 def ensure_dirs():
@@ -37,11 +40,19 @@ def load_sources():
     return load_json(CONFIG_DIR / "sources.json")
 
 
+def is_demo():
+    """Demo mode = no real profile.json on this machine."""
+    return not PROFILE_PATH.exists()
+
+
 def load_profile():
-    return load_json(PROFILE_PATH)
+    return load_json(EXAMPLE_PROFILE_PATH if is_demo() else PROFILE_PATH)
 
 
 def save_profile(profile):
+    if is_demo():
+        # Saving would create profile.json and silently switch demo mode off.
+        raise PermissionError("The profile cannot be edited in the demo.")
     with open(PROFILE_PATH, "w", encoding="utf-8") as f:
         json.dump(profile, f, indent=2, ensure_ascii=False)
 

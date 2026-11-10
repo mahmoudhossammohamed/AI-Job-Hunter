@@ -9,7 +9,7 @@ import pandas as pd  # installed with streamlit
 import streamlit as st
 
 from jobhunter import cv_engine, db, gemini, url_import
-from jobhunter.config import (ensure_dirs, load_env, load_profile, load_settings, load_sources,
+from jobhunter.config import (ensure_dirs, is_demo, load_env, load_profile, load_settings, load_sources,
                               save_profile, save_settings, CONFIG_DIR)
 from jobhunter.scoring import score_job
 from jobhunter.search import keyword_search, parse_keywords, process_job, run_search
@@ -20,6 +20,10 @@ ensure_dirs()
 load_env()
 db.init_db()
 settings, profile = load_settings(), load_profile()
+DEMO = is_demo()  # True on Streamlit Cloud: no real profile.json there
+if DEMO:
+    st.info("Demo version. Contact details are hidden, profile and settings are read-only, "
+            "and saved jobs are wiped whenever the app restarts.")
 
 BAND_LABEL = {"excellent": "Excellent", "good": "Good", "possible": "Possible", "archive": "Archive"}
 
@@ -265,6 +269,8 @@ elif page == "Profile":
         st.write(f"{g}: {', '.join(items)}")
     st.write("**Projects:** " + "; ".join(p["name"] for p in profile["projects"]))
 
+    if DEMO:
+        st.stop()  # no editing or verification in the demo
     with st.expander("Edit profile.json (advanced)"):
         raw = st.text_area("profile.json", json.dumps(profile, indent=2, ensure_ascii=False), height=400)
         if st.button("Save profile.json"):
@@ -312,7 +318,9 @@ elif page == "Settings":
     settings["gemini"]["enabled"] = st.checkbox("Enable Gemini letter drafts (needs GEMINI_API_KEY in .env)", settings["gemini"]["enabled"])
     settings["gemini"]["model"] = st.text_input("Gemini model name", settings["gemini"]["model"])
     st.caption("Only the job text and your skills and project lines are sent. Never your phone, email or links.")
-    if st.button("Save settings", type="primary"):
+    if DEMO:
+        st.caption("Settings are read-only in the demo.")
+    elif st.button("Save settings", type="primary"):
         save_settings(settings)
         src["greenhouse"]["boards"] = [x.strip() for x in gh.splitlines() if x.strip()]
         src["lever"]["companies"] = [x.strip() for x in lv.splitlines() if x.strip()]

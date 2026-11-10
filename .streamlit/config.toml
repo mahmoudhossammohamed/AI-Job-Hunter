@@ -2,9 +2,8 @@
 gatherUsageStats = false
 
 [client]
-# "minimal" hides the Deploy button and developer menu. The app stays local on purpose.
+# "minimal" hides the Deploy button and developer menu.
 toolbarMode = "minimal"
 
-[server]
-headless = false
-address = "127.0.0.1"
+# The local address (127.0.0.1, only this PC) is set in start.bat, not here,
+# because Streamlit Cloud needs to choose its own address.

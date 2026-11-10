@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "source": "Demo copy of the real profile. Contact details removed. Real profile.json stays on the owner PC.",
+    "verified_by_user": false,
+    "flags_to_confirm": [
+      "Military service start: user confirmed July 2024 (matches CV).",
+      "NTI (Jan-Apr 2026) and Intercom (Apr-May 2026) overlap in April. Kept exactly as in the CV.",
+      "Earlier chat notes listed React and Groovy. The CV does NOT list them, so they are excluded.",
+      "Barq Systems dates (Aug-Sep 2026) are kept as written in the CV."
+    ]
+  },
+  "name": "Mahmoud Hossam Abdelmoneim",
+  "headline": "Junior Software Engineer | ECM & BPM Developer",
+  "contact": {
+    "location": "Cairo, Egypt",
+    "phone": "(hidden in demo)",
+    "email": "(hidden in demo)",
+    "linkedin": "(hidden in demo)",
+    "github": "(hidden in demo)"
+  },
+  "languages": [
+    "English",
+    "Arabic"
+  ],
+  "extra_skill_keys": [
+    "ecm",
+    "bpm",
+    "troubleshooting",
+    "hardware",
+    "networking",
+    "firewall"
+  ],
+  "skills": {
+    "ECM & BPM": [
+      "Doxis ECM",
+      "CSB Client Administration",
+      "Cube Designer",
+      "OpenText Content Server",
+      "IBM Business Automation Workflow (BAW)",
+      "IBM FileNet Content Manager",
+      "BPMN"
+    ],
+    "Languages": [
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "C#",
+      "Dart",
+      "Python",
+      "PHP"
+    ],
+    "Frameworks": [
+      "Spring Boot",
+      "Node.js",
+      "Express",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "Angular",
+      "Flutter",
+      "REST APIs"
+    ],
+    "Databases": [
+      "Microsoft SQL Server",
+      "Oracle Database",
+      "MongoDB",
+      "Redis"
+    ],
+    "Tools": [
+      "Git",
+      "GitHub",
+      "Docker",
+      "Postman",
+      "Linux",
+      "VMware"
+    ],
+    "Concepts": [
+      "System Integration",
+      "Workflow Automation",
+      "Document Management",
+      "Clean Architecture"
+    ]
+  },
+  "summaries": {
+    "ecm_bpm": "Junior Software Engineer specializing in Enterprise Content Management (ECM), Business Process Management (BPM) and system integration. Hands-on with Doxis ECM, OpenText Content Server, IBM Business Automation Workflow (BAW) and FileNet, backed by Java Spring Boot and Node.js development. Delivered four ECM/BPM projects covering document management, workflow automation and system integration. B.Sc. in Computer Science with a USAID full scholarship and an exchange semester at the University of Nebraska-Lincoln.",
+    "java": "Junior Software Engineer with hands-on Java and Spring Boot experience, including backend services built for OpenText ECM and IBM BAW workflows at NTI. Works with REST APIs, SQL Server, Oracle and MongoDB, and has delivered four ECM/BPM projects covering workflow automation and system integration. B.Sc. in Computer Science (GPA 3.37) with a USAID full scholarship and an exchange semester at the University of Nebraska-Lincoln.",
+    "node": "Junior Software Engineer with Node.js and Express backend experience, including an e-commerce backend with MongoDB and Redis caching, alongside Java Spring Boot services and ECM/BPM workflow automation. Works with REST APIs, SQL Server, Oracle and Docker. B.Sc. in Computer Science (GPA 3.37) with a USAID full scholarship and an exchange semester at the University of Nebraska-Lincoln.",
+    "fullstack": "Junior Software Engineer with full-stack project experience across ASP.NET Core with SQL Server, Node.js and Express with MongoDB and Redis, and Flutter mobile apps with REST API integration. Skills also include Angular, Java Spring Boot and Docker. B.Sc. in Computer Science (GPA 3.37) with a USAID full scholarship and an exchange semester at the University of Nebraska-Lincoln.",
+    "software": "Junior Software Engineer with experience across Java Spring Boot, Node.js, ASP.NET Core and Flutter, and four ECM/BPM projects covering document management, workflow automation and system integration. Works with SQL Server, Oracle, MongoDB, Redis, Git and Docker. B.Sc. in Computer Science (GPA 3.37) with a USAID full scholarship and an exchange semester at the University of Nebraska-Lincoln.",
+    "it_support": "Junior Software Engineer with IT support internship experience at EGAS (hardware, software and network troubleshooting, VMware virtualization and Palo Alto firewall operations) and a Computer Science background. Skills include Linux, VMware, SQL Server, Oracle and Git. B.Sc. in Computer Science (GPA 3.37) with a USAID full scholarship and an exchange semester at the University of Nebraska-Lincoln."
+  },
+  "variant_names": {
+    "ecm_bpm": "ECM/BPM Developer",
+    "java": "Java Backend Developer",
+    "node": "Node.js Backend Developer",
+    "fullstack": "Full-Stack Developer",
+    "software": "Software Engineer",
+    "it_support": "IT Support"
+  },
+  "variant_skill_group_order": {
+    "ecm_bpm": [
+      "ECM & BPM",
+      "Languages",
+      "Frameworks",
+      "Databases",
+      "Tools",
+      "Concepts"
+    ],
+    "java": [
+      "Languages",
+      "Frameworks",
+      "Databases",
+      "ECM & BPM",
+      "Tools",
+      "Concepts"
+    ],
+    "node": [
+      "Languages",
+      "Frameworks",
+      "Databases",
+      "Tools",
+      "ECM & BPM",
+      "Concepts"
+    ],
+    "fullstack": [
+      "Languages",
+      "Frameworks",
+      "Databases",
+      "Tools",
+      "ECM & BPM",
+      "Concepts"
+    ],
+    "software": [
+      "Languages",
+      "Frameworks",
+      "Databases",
+      "Tools",
+      "ECM & BPM",
+      "Concepts"
+    ],
+    "it_support": [
+      "Tools",
+      "Databases",
+      "Languages",
+      "Frameworks",
+      "ECM & BPM",
+      "Concepts"
+    ]
+  },
+  "variant_skill_priority": {
+    "ecm_bpm": [
+      "Doxis ECM",
+      "IBM Business Automation Workflow (BAW)",
+      "OpenText Content Server",
+      "IBM FileNet Content Manager",
+      "BPMN",
+      "Java",
+      "SQL"
+    ],
+    "java": [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "SQL",
+      "Microsoft SQL Server",
+      "Oracle Database"
+    ],
+    "node": [
+      "Node.js",
+      "Express",
+      "JavaScript",
+      "TypeScript",
+      "MongoDB",
+      "Redis",
+      "REST APIs"
+    ],
+    "fullstack": [
+      "JavaScript",
+      "TypeScript",
+      "Angular",
+      "Node.js",
+      "Express",
+      "ASP.NET Core",
+      "REST APIs",
+      "Microsoft SQL Server"
+    ],
+    "software": [
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "JavaScript",
+      "REST APIs",
+      "SQL",
+      "Git"
+    ],
+    "it_support": [
+      "Linux",
+      "VMware",
+      "Microsoft SQL Server",
+      "Oracle Database",
+      "Git"
+    ]
+  },
+  "variant_project_order": {
+    "ecm_bpm": [
+      "contracts_ecm",
+      "loan_baw",
+      "account_baw",
+      "opentext_gov",
+      "ecommerce",
+      "ar_food",
+      "ar_vehicle"
+    ],
+    "java": [
+      "loan_baw",
+      "contracts_ecm",
+      "account_baw",
+      "opentext_gov",
+      "ecommerce",
+      "ar_food",
+      "ar_vehicle"
+    ],
+    "node": [
+      "ecommerce",
+      "loan_baw",
+      "contracts_ecm",
+      "ar_food",
+      "ar_vehicle",
+      "account_baw",
+      "opentext_gov"
+    ],
+    "fullstack": [
+      "ecommerce",
+      "ar_food",
+      "ar_vehicle",
+      "loan_baw",
+      "contracts_ecm",
+      "account_baw",
+      "opentext_gov"
+    ],
+    "software": [
+      "ecommerce",
+      "loan_baw",
+      "contracts_ecm",
+      "ar_food",
+      "ar_vehicle",
+      "account_baw",
+      "opentext_gov"
+    ],
+    "it_support": [
+      "contracts_ecm",
+      "loan_baw",
+      "ecommerce",
+      "account_baw",
+      "opentext_gov",
+      "ar_food",
+      "ar_vehicle"
+    ]
+  },
+  "variant_max_projects": 6,
+  "cover_letter_focus": {
+    "ecm_bpm": "hands-on experience configuring Doxis ECM and building IBM BAW and OpenText workflows",
+    "java": "hands-on Java and Spring Boot experience, including backend services for ECM and BPM workflows at NTI",
+    "node": "Node.js and Express backend experience, plus Java Spring Boot services for enterprise workflows",
+    "fullstack": "project experience across ASP.NET Core, Node.js and Flutter",
+    "software": "experience across Java Spring Boot, Node.js, ASP.NET Core and enterprise ECM and BPM projects",
+    "it_support": "IT support internship experience at EGAS and a Computer Science background"
+  },
+  "experience": [
+    {
+      "id": "barq",
+      "title": "ECM (Doxis) Developer Trainee",
+      "org": "Barq Systems Company",
+      "start": "Aug 2026",
+      "end": "Sep 2026",
+      "bullets": [
+        "Configured Doxis ECM in CSB Client Administration and Cube Designer: document classes, descriptors, eFiles, dialogs and processes.",
+        "Automated document handling with Doxis agents and Java WebScripts."
+      ]
+    },
+    {
+      "id": "intercom",
+      "title": "ECM (OpenText) and BPM (IBM BAW) Intern",
+      "org": "Intercom Enterprises Company",
+      "start": "Apr 2026",
+      "end": "May 2026",
+      "bullets": [
+        "Modeled and automated business workflows on OpenText and IBM BAW to improve process efficiency."
+      ]
+    },
+    {
+      "id": "nti",
+      "title": "ECM (OpenText) and BPM (IBM BAW) Intern",
+      "org": "National Telecommunication Institute (NTI), HireReady Initiative",
+      "start": "Jan 2026",
+      "end": "Apr 2026",
+      "bullets": [
+        "Developed OpenText ECM and IBM BAW workflows, and built the supporting Java Spring Boot backend services."
+      ]
+    },
+    {
+      "id": "military",
+      "title": "Mandatory Military Service",
+      "org": "Egypt, completed",
+      "start": "Jul 2024",
+      "end": "Dec 2025",
+      "bullets": []
+    },
+    {
+      "id": "egas",
+      "title": "IT Support Intern",
+      "org": "EGAS, Egyptian Natural Gas Holding Company",
+      "start": "Sep 2022",
+      "end": "Oct 2022",
+      "bullets": [
+        "Resolved hardware, software and network issues in production; supported VMware virtualization and Palo Alto firewall security operations."
+      ]
+    },
+    {
+      "id": "arab_computers",
+      "title": "Full-Stack Intern",
+      "org": "Arab Computers Company",
+      "start": "Aug 2022",
+      "end": "Sep 2022",
+      "bullets": [
+        "Built ASP.NET Core MVC web applications on SQL Server with EF Core, including secure CRUD features, and tuned performance while debugging."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "contracts_ecm",
+      "name": "Contracts Department ECM Solution",
+      "tech": "Doxis ECM, Cube Designer, Java, WebScripts",
+      "bullets": [
+        "Configured Doxis storage, full-text search, descriptors, document classes, dialogs, value lists, filing environments and eFiles.",
+        "Propagated metadata from eFiles to documents and automated workflows with Java WebScripts and agents."
+      ]
+    },
+    {
+      "id": "loan_baw",
+      "name": "Loan Request Process (MedCap)",
+      "tech": "IBM BAW, FileNet, JavaScript, SQL",
+      "bullets": [
+        "Architected an end-to-end loan process of 7 modular sub-processes with template-based Coach views.",
+        "Integrated FileNet document management and database-driven services; managed runtime settings with EPVs and full validation."
+      ]
+    },
+    {
+      "id": "account_baw",
+      "name": "Account Opening Process",
+      "tech": "IBM BAW, BPMN, FileNet",
+      "bullets": [
+        "Automated end-to-end account opening with FileNet document management.",
+        "Modeled BPMN flows with parallel processing, modular sub-processes and error handling."
+      ]
+    },
+    {
+      "id": "opentext_gov",
+      "name": "Government-Style ECM Workflow System",
+      "tech": "OpenText Content Server",
+      "bullets": [
+        "Built governed ECM workflows using sub-workflows and workflow actions.",
+        "Produced Live Reports and WebReports; explored API integration with external systems."
+      ]
+    },
+    {
+      "id": "ar_food",
+      "name": "AR Food Delivery Platform",
+      "tech": "Flutter, Dart, BLoC, ARCore",
+      "bullets": [
+        "Built a real-time 3D food ordering app with BLoC state management and REST API integration."
+      ]
+    },
+    {
+      "id": "ar_vehicle",
+      "name": "AR Multi-Vehicle Marketplace (USA Market)",
+      "tech": "Flutter, Dart, MVVM, ARKit",
+      "bullets": [
+        "Added AR product visualization to a marketplace app, and handled authentication and backend integration."
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-Commerce Website",
+      "tech": "Node.js, Express, MongoDB, Redis",
+      "bullets": [
+        "Developed secure CRUD backend services and database schemas; sped up responses with Redis caching."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "B.Sc. in Computer Science",
+      "org": "Faculty of Science, Alexandria University",
+      "start": "Sep 2020",
+      "end": "Jun 2024",
+      "detail": "GPA: 3.37"
+    },
+    {
+      "title": "Exchange Program, Computer Science",
+      "org": "Faculty of Engineering, University of Nebraska-Lincoln, USA",
+      "start": "Aug 2023",
+      "end": "Dec 2023",
+      "detail": ""
+    }
+  ],
+  "scholarships": [
+    {
+      "title": "USAID Scholarship Program, The American University in Cairo (AUC)",
+      "bullets": [
+        "Won a competitive full scholarship for all semesters on academic merit; selected as one of 140 recipients for the Semester Abroad Program at the University of Nebraska-Lincoln.",
+        "Completed 400+ hours of certified training in English communication, leadership and sustainability."
+      ]
+    }
+  ]
+}
