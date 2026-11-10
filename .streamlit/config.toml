@@ -1,6 +1,10 @@
 [browser]
 gatherUsageStats = false
 
+[client]
+# "minimal" hides the Deploy button and developer menu. The app stays local on purpose.
+toolbarMode = "minimal"
+
 [server]
 headless = false
 address = "127.0.0.1"
