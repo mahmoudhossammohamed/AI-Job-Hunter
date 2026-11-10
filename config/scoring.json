@@ -1,0 +1,42 @@
+{
+  "weights": {
+    "skills": 30,
+    "seniority": 20,
+    "responsibilities": 15,
+    "education": 10,
+    "role_relevance": 10,
+    "location": 10,
+    "other": 5
+  },
+  "category_priority": {
+    "ecm_bpm": 1.0, "java": 1.0, "node": 1.0, "software": 1.0,
+    "fullstack": 0.8, "frontend": 0.7, "ai": 0.4, "it_support": 0.4, "other": 0.2
+  },
+  "category_to_variant": {
+    "ecm_bpm": "ecm_bpm", "java": "java", "node": "node", "fullstack": "fullstack",
+    "frontend": "fullstack", "software": "software", "it_support": "it_support",
+    "ai": "software", "other": "software"
+  },
+  "title_patterns": [
+    ["ecm_bpm", "\\b(ecm|bpm|baw|filenet|opentext|doxis|content management|business process|workflow)\\b"],
+    ["it_support", "\\b(it support|help ?desk|service desk|technical support|system administrator|sysadmin|it technician|network)\\b"],
+    ["ai", "(\\bai\\b|machine learning|\\bml\\b|data scientist|\\bllm\\b)"],
+    ["fullstack", "full[- ]?stack"],
+    ["frontend", "(front[- ]?end|ui developer|\\breact\\b|\\bangular\\b|\\bvue\\b)"],
+    ["java", "(\\bjava\\b|spring)"],
+    ["node", "(\\bnode|nodejs|\\bnest\\b|\\bexpress\\b)"],
+    ["software", "(software|developer|engineer|programmer|back[- ]?end)"]
+  ],
+  "responsibility_keywords": {
+    "ecm_bpm": ["workflow", "process", "document", "integration", "bpmn", "content", "automation", "metadata"],
+    "java": ["rest", "api", "backend", "microservice", "database", "sql", "integration", "spring"],
+    "node": ["rest", "api", "backend", "database", "mongodb", "express", "microservice", "node"],
+    "fullstack": ["frontend", "backend", "api", "database", "web", "ui", "rest", "responsive"],
+    "frontend": ["ui", "responsive", "component", "javascript", "web", "css", "html", "browser"],
+    "software": ["develop", "design", "api", "database", "testing", "backend", "integration", "debug"],
+    "it_support": ["troubleshoot", "support", "network", "hardware", "software", "users", "incident", "install"],
+    "ai": ["model", "data", "python", "machine learning", "pipeline", "training", "deploy", "api"],
+    "other": ["develop", "software", "api", "database"]
+  },
+  "foreign_languages": ["german", "french", "italian", "spanish", "dutch", "japanese", "russian", "turkish", "chinese", "polish", "portuguese"]
+}

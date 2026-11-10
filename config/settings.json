@@ -1,0 +1,82 @@
+{
+  "dry_run": true,
+  "kill_switch": false,
+  "daily_application_limit": 10,
+  "profile_verified": true,
+  "thresholds": {
+    "excellent": 85,
+    "good": 70,
+    "possible": 55
+  },
+  "auto_prepare_min_score": 70,
+  "keep_only_matching_locations": true,
+  "max_job_age_days": 45,
+  "locations": {
+    "Egypt": [
+      "egypt",
+      "cairo",
+      "giza",
+      "alexandria",
+      "new cairo",
+      "6th of october",
+      "october city",
+      "sheikh zayed",
+      "maadi",
+      "nasr city",
+      "heliopolis",
+      "smart village",
+      "new capital",
+      "mansoura",
+      "tanta",
+      "مصر",
+      "القاهرة",
+      "الجيزة",
+      "الإسكندرية"
+    ]
+  },
+  "title_keywords": [
+    "software",
+    "developer",
+    "engineer",
+    "programmer",
+    "backend",
+    "back-end",
+    "back end",
+    "frontend",
+    "front-end",
+    "front end",
+    "full stack",
+    "full-stack",
+    "fullstack",
+    "java",
+    "node",
+    "bpm",
+    "baw",
+    "ecm",
+    "filenet",
+    "opentext",
+    "doxis",
+    "workflow",
+    "integration",
+    "it support",
+    "help desk",
+    "helpdesk",
+    "service desk",
+    "technical support",
+    "intern",
+    "trainee",
+    "graduate",
+    "junior",
+    "ai ",
+    "machine learning"
+  ],
+  "gemini": {
+    "enabled": false,
+    "model": "gemini-2.5-flash"
+  },
+  "http": {
+    "user_agent": "PersonalJobHunter/1.0 (personal use; contact: owner)",
+    "delay_seconds": 2,
+    "timeout": 20
+  }
+}

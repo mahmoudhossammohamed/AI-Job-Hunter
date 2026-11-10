@@ -1,0 +1,9 @@
+# Personal data and secrets: never commit these
+.env
+profile.json
+storage/
+logs/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

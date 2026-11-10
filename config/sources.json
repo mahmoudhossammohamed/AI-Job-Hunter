@@ -1,0 +1,16 @@
+{
+  "greenhouse": {
+    "enabled": true,
+    "boards": [
+      "intercom"
+    ]
+  },
+  "lever": {
+    "enabled": true,
+    "companies": []
+  },
+  "email_alerts": {
+    "enabled": true,
+    "inbox_dir": "storage/inbox"
+  }
+}
